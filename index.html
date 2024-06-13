@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа с формами</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form id="form-reg">
+        <label for="login">Введите логин</label>
+        <br>
+        <input type="text" name="login" id="login"  placeholder="Логин" required>
+        <br>
+        <label for="password">Введите пароль</label>
+        <br>
+        <input type="password" name="password" id="password" placeholder="Пароль" required>
+        <br>
+        <label for="email">Введите email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Введите email" required>
+        <br>
+        <label for="age">Введите возраст</label>
+        <br>
+        <input type="number" name="age" id="age" placeholder="Ваш возраст" required>
+        <br>
+        <label for="gender-f">Жен</label>
+        <br>
+        <input type="radio" name="gender" id="gender-f" value="female">
+        <br>
+        <label for="gender-m">Муж</label>
+        <br>
+        <input type="radio" name="gender" id="gender-m" value="men" checked>
+        <br>
+        <label for="agreement">Согласие</label>
+        <br>
+        <input type="checkbox" name="agreement" id="agreement">
+        <br>
+        <label for="city">Выберете город</label>
+        <br>
+        <select name="city" id="city">
+            <option value="city0" disabled selected>Выберете город</option>
+            <option value="city1">Москва</option>
+            <option value="city2">Челябинск</option>
+            <option value="city1">Сочи</option>
+        </select>
+        <br>
+        <label for="about">О себе</label>
+        <br>
+        <textarea name="anout" id="about" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Зарегистрироваться" >
+        <br>
+        <input type="reset">
+    </form>
+</body>
+</html>
