@@ -1,0 +1,10 @@
+body{
+    background-color: azure;
+}
+#form-reg{
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px burlywood solid;
+    padding: 20px;
+    border-radius: 20px;
+}
